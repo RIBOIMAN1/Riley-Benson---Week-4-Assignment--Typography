@@ -12,7 +12,7 @@
 */
 
 a:link, a:visited {
-	color: blue;
+	color: #007FFF;
 }
 
 a:focus, a:hover {
@@ -28,7 +28,7 @@ body {
 }
 
 code {
-	
+	color: yellow;
 }
 
 h1, h2, h3 {
@@ -56,7 +56,8 @@ main {
 }
 
 p {
-
+	padding-bottom: 20px;
+	color: white;
 }
 
 #intro {
@@ -70,15 +71,21 @@ p {
 body, h1, h2, ul, li, a {
     margin: 0;
     padding: 0;
-    font-family: sans-serif, "Ubuntu", Arial, Helvetica /* Font family for the webpage */
+    font-family: sans-serif, "Ubuntu", Arial, Helvetica; /* Font family for the webpage */
+	line-height: 2;
+	max-width: 600px;
+	text-align: center;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 body {
     background: radial-gradient(circle, rgb(0,0,0), rgb(40,0,40)); /* Gradient dark purple background */
 }
 
-h1 {
-    color: cyan;
+h1 {        
+	color: cyan;
     font-size: 2em;
     margin-bottom: 0.5em;
 } /* Cyan color and font size and spacing adjustments for <h1> element */
@@ -107,18 +114,8 @@ ul li {
 
 a {
     display: inline-block;
-    color: yellow;
-    text-decoration: none;
-    padding: 5px 10px;
-    border: 3px solid #00FFFF;
     transition: all 0.3s ease;
 } /* Makes <a> elements have cyan border and yellow font with an animation transition */
-
-a:hover {
-    background-color: green;
-    color: white;
-    border: 3px solid yellow;
-} /* Adds green background, white font, and yellow border when hovering over <a> elements */
 
 .center-text {
     text-align: center;
